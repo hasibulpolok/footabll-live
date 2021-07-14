@@ -247,7 +247,45 @@ header  ul li a{
 .copa-container .watch-live  button:hover{
     transform: scale(1.2);
 }
+/* winning history */
 
+.copa-winner{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.winners{
+    margin: 0 auto;
+   
+    
+}
+
+.winning-info{
+    
+}
+#details {
+    
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  #details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #details tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #details tr:hover {background-color: #ddd;}
+  
+  #details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2D25A0;
+    color: white;
+  }
+/* footer style */
 footer{
     margin-top: 220px;
     margin-bottom: ;
