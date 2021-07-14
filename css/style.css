@@ -39,6 +39,7 @@ nav a button {
     font-size: 16px;
     padding: 10px 24px;
     position: relative;
+    transition: transform 1s;
 }
 
 
@@ -81,13 +82,14 @@ header  ul li a{
 }
 
 .header-text{
+    width: 485px;
     margin-top: 10px;
     margin-left: 116px;
     
 }
  .header-text h1{
      color: #ffffff;
-     font-size: 64px;
+     font-size: 55px;
      font-weight: 700px;
      
  }
@@ -99,6 +101,7 @@ header  ul li a{
     border: none;
     position: relative;
     bottom:30px;
+    transition: transform 1s
     
 
  }
@@ -238,5 +241,51 @@ header  ul li a{
     padding: 10px 24px;
     position: relative;
     bottom: 30px;
+    transition: transform 1s;
 }
 
+.copa-container .watch-live  button:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    margin-top: 220px;
+    margin-bottom: ;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo img{
+    height: 110px;
+    width: 483px;
+}
+
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+.social-links li{
+    margin-left: 14px;
+    list-style: none;
+    transition: transform 1s;
+    
+}
+.social-links  i{
+    font-size: 20px;
+}
+
+.social-links li:hover{
+    transform:rotate(120deg);
+
+}
+
+.copyright{
+    text-align: center;
+}
