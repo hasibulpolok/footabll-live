@@ -91,7 +91,7 @@ header  ul li a{
      font-weight: 700px;
      
  }
- .header-text button{
+ .header-text button {
     background: #E02C6D;
     font-size: 16px;
     font-weight: 500px;
@@ -99,10 +99,11 @@ header  ul li a{
     border: none;
     position: relative;
     bottom:30px;
+    
 
  }
 
- .header-text button a{
+ .header-text a {
      color:#ffffff
  }
  header .header-image img{
@@ -143,7 +144,6 @@ header  ul li a{
  
 .player{
     width:300px;
-    
     padding:15px;
     
     
@@ -173,11 +173,70 @@ header  ul li a{
 .player-description{
     color: #6C6C6C;
     font-size: 16px;
+    font-weight: 400;
 
 }
 
 /* player-style end */
 
+/* copa 2021 style  */
 
+.copa-container{
+    margin-top: 70px;
+    margin-bottom: 30px;
 
+    
+}
+
+.copa-info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.copa-text {
+    position: relative;
+    width: 469px;
+    height: 309px;
+    margin-left: 40px;
+    bottom: 10px;
+    
+
+}
+.copa-text h2{
+     font-size: 48px;
+     color: #0A0826;
+     font-weight: 700;
+
+}
+.copa-des{
+    color:#6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    bottom: 30px;
+}
+
+.copa-image{
+    width:404px;
+    height: 113px;
+    margin-right: 40px;
+    
+    
+}
+
+.copa-image img{
+    width:100%;
+}
+
+.watch-live  button{
+    background: #E02C6D;
+    height:44px;
+    color:#ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 24px;
+    position: relative;
+    bottom: 30px;
+}
 
