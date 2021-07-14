@@ -247,6 +247,15 @@ header  ul li a{
 .copa-container .watch-live  button:hover{
     transform: scale(1.2);
 }
+
+/* newslater style */
+
+.newslater{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
 /* winning history */
 
 .copa-winner{
@@ -285,6 +294,37 @@ header  ul li a{
     background-color: #2D25A0;
     color: white;
   }
+
+  /* newslater style */
+  .newslater{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+  }
+
+  .newslater-items{
+      width: 90%;
+  }
+
+  .input{
+      margin-top:10%;
+  }
+  input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    
+  }
+  
+  button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    color:#ffffff;
+    background-color: #E02C6D;
+    border: none;
+    
+    
+  }
 /* footer style */
 footer{
     margin-top: 220px;
@@ -293,7 +333,7 @@ footer{
 
 .logo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
