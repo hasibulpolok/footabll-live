@@ -1,0 +1,154 @@
+@media only screen and (max-width: 360px) {
+    
+
+    header{
+        background-color:#2D25A0 ;
+        width:100%;
+    }
+
+    .header-nav{
+        display: none;
+         
+    }
+
+    .header-main{
+        display: block;
+        
+       
+    }
+
+    .header-text{
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 5px;
+        
+    }
+
+    .header-text h1{
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 700px;
+        
+    }
+    header .header-image{
+        width:329px;
+        height:259px;
+        position: relative;
+        right: 10%;
+    }
+
+    header .header-image img{
+        width: 80%;
+        height: 100%;
+        
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 27px;
+        align-items: center;
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        margin-top: 70px;
+        margin-bottom: 27px;
+     }
+
+
+
+     .copa-info{
+        display: block;
+        
+    }
+
+    .copa-text {
+        position: relative;
+        width: 350px;
+        height: 309px;
+        margin-left: 10px;
+        bottom: 10px;  
+    
+    }
+
+    .copa-text h2{
+        font-size: 30px;
+        color: #0A0826;
+        font-weight: 700;
+        margin-top: 10px;
+   
+   }
+
+   .copa-des{
+    color:#6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    bottom: 30px;
+}
+
+.copa-image{
+    width:300px;
+    height: 113px;
+    margin-left: 10px;  
+    margin-bottom: 30px;
+}
+
+.copa-image img{
+    width:80%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+
+.winning-info h1{
+    display: none;
+}
+
+
+#details {
+    
+   margin-top: 100px;
+  }
+
+
+
+  .newslater{
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    
+  }
+
+  .newslater-items{
+      width: 50%;
+      margin:0 auto
+  }
+
+  .input{
+      margin-top:10%;
+      margin-bottom: 10%;
+  }
+  input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    
+  }
+  
+  button[type="submit"] {
+    width: 100px;
+    height: 40px;
+    color:#ffffff;
+    background-color: #E02C6D;
+    border: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    
+  }
+
+  .logo img{
+    height: 110px;
+    width: 300px;
+  }

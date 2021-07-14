@@ -75,10 +75,7 @@ header  ul li a{
     display: flex;
     justify-content:space-around;
     padding: 70px;
-    
    
-    
-    
 }
 
 .header-text{
@@ -202,8 +199,7 @@ header  ul li a{
     width: 469px;
     height: 309px;
     margin-left: 40px;
-    bottom: 10px;
-    
+    bottom: 10px;  
 
 }
 .copa-text h2{
@@ -248,12 +244,7 @@ header  ul li a{
     transform: scale(1.2);
 }
 
-/* newslater style */
 
-.newslater{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
 
 /* winning history */
@@ -296,12 +287,19 @@ header  ul li a{
   }
 
   /* newslater style */
-  .newslater{
+
+  
+/* newslater style */
+
+.newslater{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     margin-top: 70px;
     margin-bottom: 30px;
     text-align: center;
-    
-  }
+}
+
+ 
 
   .newslater-items{
       width: 90%;
@@ -367,3 +365,5 @@ footer{
 .copyright{
     text-align: center;
 }
+
+
